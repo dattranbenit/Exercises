@@ -1,0 +1,42 @@
+@import "./ExerciseOne/_exercise-one.scss";
+@import "./ExerciseTwo/_exercise-two.scss";
+@import "./HomePage/_homepage.scss";
+
+.button__container {
+  display: flex;
+  justify-content: center
+}
+
+.button {
+  background-color: black !important;
+  color: white !important;
+  border: none !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.card__button {
+  width: 220px !important;
+  height: 50px !important;
+  background-color: white !important;
+  border: 3px solid black !important;
+  border-radius: 90px !important;
+  font-weight: bold !important;
+  color: black !important
+}
+
+.card__button--position {
+  display: flex;
+  justify-content: center;
+  align-content: center
+}
+
+.card__content {
+  margin: 20px
+}
+
+.card__content--position {
+  text-align: center;
+}

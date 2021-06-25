@@ -1,0 +1,15 @@
+.tabs {
+}
+
+.accordion {
+  display: none
+}
+
+@media only screen and (max-width: 500px) {
+  .tabs {
+    display: none !important;
+  }
+  .accordion {
+    display: block;
+  }
+}
